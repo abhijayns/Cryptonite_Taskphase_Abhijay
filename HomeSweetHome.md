@@ -4,7 +4,7 @@
 
 Ran the _challenge_ program with an argument.  
 
-_hacker@paths~home-sweet-home:~/Desktop$ /challenge/run ~/h_
+_hacker@paths-home-sweet-home:~/Desktop$ /challenge/run ~/h_
 
 _Writing the file to /home/hacker/h!_
 
