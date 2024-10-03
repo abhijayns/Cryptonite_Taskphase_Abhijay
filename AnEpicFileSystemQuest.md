@@ -26,29 +26,29 @@ The next clue is **hidden** --- its filename starts with a '.' character. You'll
 hacker@commands-an-epic-filesystem-quest:/usr/lib/x86_64-linux-gnu/libgtk-3-0$ cd /usr/lib/x86_64-linux-gnu/perl/5.30.0/auto/POSIX
 hacker@commands-an-epic-filesystem-quest:/usr/lib/x86_64-linux-gnu/perl/5.30.0/auto/POSIX$ ls -a
 .  ..  .NOTE  POSIX.so
-hacker@commands~an-epic-filesystem-quest:/usr/lib/x86_64-linux-gnu/perl/5.30.0/auto/POSIX$ cat .NOTE
+hacker@commands-an-epic-filesystem-quest:/usr/lib/x86_64-linux-gnu/perl/5.30.0/auto/POSIX$ cat .NOTE
 Tubular find!
 The next clue is in: /opt/linux/linux-5.4/drivers/phy/mscc
-hacker@commands~an-epic-filesystem-quest:/usr/lib/x86_64-linux-gnu/perl/5.30.0/auto/POSIX$ cd /opt/linux/linux-5.4/drivers/phy/mscc
-hacker@commands~an-epic-filesystem-quest:/opt/linux/linux-5.4/drivers/phy/mscc$ ls -a
+hacker@commands-an-epic-filesystem-quest:/usr/lib/x86_64-linux-gnu/perl/5.30.0/auto/POSIX$ cd /opt/linux/linux-5.4/drivers/phy/mscc
+hacker@commands-an-epic-filesystem-quest:/opt/linux/linux-5.4/drivers/phy/mscc$ ls -a
 .  ..  HINT  Kconfig  Makefile  phy-ocelot-serdes.c
-hacker@commands~an-epic-filesystem-quest:/opt/linux/linux-5.4/drivers/phy/mscc$ cat HINT
+hacker@commands-an-epic-filesystem-quest:/opt/linux/linux-5.4/drivers/phy/mscc$ cat HINT
 Great sleuthing!
 The next clue is in: /opt/aflplusplus/utils/asan_cgroups
 
 The next clue is **hidden** --- its filename starts with a '.' character. You'll need to look for it using special options to 'ls'.
-hacker@commands~an-epic-filesystem-quest:/opt/linux/linux-5.4/drivers/phy/mscc$ cd /opt/aflplusplus/utils/asan_cgroups
-hacker@commands~an-epic-filesystem-quest:/opt/aflplusplus/utils/asan_cgroups$ ls -a
+hacker@commands-an-epic-filesystem-quest:/opt/linux/linux-5.4/drivers/phy/mscc$ cd /opt/aflplusplus/utils/asan_cgroups
+hacker@commands-an-epic-filesystem-quest:/opt/aflplusplus/utils/asan_cgroups$ ls -a
 .  ..  .REVELATION  limit_memory.sh
-hacker@commands~an-epic-filesystem-quest:/opt/aflplusplus/utils/asan_cgroups$ cat .REVELATION
+hacker@commands-an-epic-filesystem-quest:/opt/aflplusplus/utils/asan_cgroups$ cat .REVELATION
 Yahaha, you found me!
 The next clue is in: /opt/aflplusplus/nyx_mode/QEMU-Nyx/tests/tcg/s390x
 
 The next clue is **delayed** --- it will not become readable until you enter the directory with 'cd'.
-hacker@commands~an-epic-filesystem-quest:/opt/aflplusplus/utils/asan_cgroups$ cd /opt/aflplusplus/nyx_mode/QEMU-Nyx/tests/tcg/s390x
-hacker@commands~an-epic-filesystem-quest:/opt/aflplusplus/nyx_mode/QEMU-Nyx/tests/tcg/s390x$ ls
+hacker@commands-an-epic-filesystem-quest:/opt/aflplusplus/utils/asan_cgroups$ cd /opt/aflplusplus/nyx_mode/QEMU-Nyx/tests/tcg/s390x
+hacker@commands-an-epic-filesystem-quest:/opt/aflplusplus/nyx_mode/QEMU-Nyx/tests/tcg/s390x$ ls
 Makefile.target  TIP  csst.c  exrl-trt.c  exrl-trtr.c  hello-s390x.c  ipm.c  mvc.c  mvo.c  pack.c
-hacker@commands~an-epic-filesystem-quest:/opt/aflplusplus/nyx_mode/QEMU-Nyx/tests/tcg/s390x$ cat TIP
+hacker@commands-an-epic-filesystem-quest:/opt/aflplusplus/nyx_mode/QEMU-Nyx/tests/tcg/s390x$ cat TIP
 Yahaha, you found me!
 The next clue is in: /opt/angr-management/_internal/PySide6/Qt/qml/QtQuick/Layouts
 
