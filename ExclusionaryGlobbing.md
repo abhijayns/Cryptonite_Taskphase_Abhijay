@@ -2,7 +2,7 @@
 
 ##**Exclusionary Globbing**
 
-I changed the working directory to to _/challenge/files_ and run /challenge/run with all files that don't start with _p_, _w_, or _n_.
+I changed the working directory to to _/challenge/files_ and ran _/challenge/run_ with all files that don't start with _p_, _w_, or _n_.
 
 _hacker@globbing-exclusionary-globbing:~$ cd /challenge/files_
 
