@@ -2,6 +2,9 @@
 
 ##**Appending Output**
 
+
+
+
 I ran _/challenge/run_ with an append-mode redirect of the output to the file _/home/hacker/the-flag_.
 
 _hacker@piping-appending-output:~$ /challenge/run >> /home/hacker/the-flag_
