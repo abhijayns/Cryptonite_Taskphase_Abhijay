@@ -4,7 +4,7 @@
 
 I redirected _/challenge/run_ command’s output to the file _myflag_ and read _myflag_.
 
-_hacker@piping~redirecting-more-output:~$ /challenge/run > myflag_
+_hacker@piping-redirecting-more-output:~$ /challenge/run > myflag_
 
 _\[INFO\] WELCOME! This challenge makes the following asks of you:_
 
@@ -24,7 +24,7 @@ _\[PASS\] The file at the other end of my stdout looks okay!_
 
 _\[PASS\] Success! You have satisfied all execution requirements._
 
-_hacker@piping~redirecting-more-output:~$ cat myflag_
+_hacker@piping-redirecting-more-output:~$ cat myflag_
 
 _\[FLAG\] Here is your flag:_
 
