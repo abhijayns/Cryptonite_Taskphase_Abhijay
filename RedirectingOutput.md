@@ -4,7 +4,7 @@
 
 I used the input redirection to write the word _PWN_ (all uppercase) to the filename _COLLEGE_ (all uppercase).
 
-_hacker@piping~redirecting-output:~$ echo PWN > COLLEGE_
+_hacker@piping-redirecting-output:~$ echo PWN > COLLEGE_
 
 _Correct! You successfully redirected 'PWN' to the file 'COLLEGE'! Here is your_
 
