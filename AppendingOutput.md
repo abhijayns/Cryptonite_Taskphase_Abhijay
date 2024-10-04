@@ -40,16 +40,16 @@ _get the whole flag!_
 
 _hacker@piping-appending-output:~$ cat the-flag_
 
-_|_
+      _|_
 
-_\\|/ This is the first half:_
+    _\\|/ This is the first half:_
 
-_v_
+      _v_
 
 _pwn.college{8xerKzZCk9AeoKwhDV6A18sy1xc.ddDM5QDL1cTN0czW}_
 
-_^_
+                              _^_
 
-_that is the second half /|\\_
+     _that is the second half /|\\_
 
-_|_
+                              _|_
