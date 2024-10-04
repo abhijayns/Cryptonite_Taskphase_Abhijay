@@ -4,7 +4,7 @@
 
 I ran _/challenge/run_ with an append-mode redirect of the output to the file _/home/hacker/the-flag_.
 
-_hacker@piping~appending-output:~$ /challenge/run >> /home/hacker/the-flag_
+_hacker@piping-appending-output:~$ /challenge/run >> /home/hacker/the-flag_
 
 _\[INFO\] WELCOME! This challenge makes the following asks of you:_
 
@@ -38,7 +38,7 @@ _second write will append to (rather than overwrite) the first write, and you'll
 
 _get the whole flag!_
 
-_hacker@piping~appending-output:~$ cat the-flag_
+_hacker@piping-appending-output:~$ cat the-flag_
 
 _|_
 
