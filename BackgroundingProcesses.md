@@ -56,11 +56,11 @@ _^Z_
 
 _\[1\]+ Stopped /challenge/run_
 
-_hacker@processes~backgrounding-processes:~$ bg_
+_hacker@processes-backgrounding-processes:~$ bg_
 
 _\[1\]+ /challenge/run &_
 
-_hacker@processes~backgrounding-processes:~$_
+_hacker@processes-backgrounding-processes:~$_
 
 _Yay, I'm now running the background! Because of that, this text will probably_
 
