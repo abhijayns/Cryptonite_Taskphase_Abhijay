@@ -1,0 +1,19 @@
+#**Processes and Jobs**
+
+##**Process Exit Codes**
+
+I retrieved the exit code returned by _/challenge/get-code_ and ran _/challenge/submit-code_ with that error code as an argument.
+
+_hacker@processes-process-exit-codes:~$ /challenge/get-code_
+
+_Exiting with an error code!_
+
+_hacker@processes-process-exit-codes:~$ echo $?_
+
+_40_
+
+_hacker@processes-process-exit-codes:~$ /challenge/submit-code 40_
+
+_CORRECT! Here is your flag:_
+
+_pwn.college{AzKzWkD38boXfBnOs8a5gVvjSd6.dljN4UDL1cTN0czW}_
