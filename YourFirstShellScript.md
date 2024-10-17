@@ -2,7 +2,7 @@
 
 ##**Your First Shell Script**
 
-I had to research on how to write inside of a shell as nothing was working and I couldn’t solve the question. The source which I refered is  <https://cloudxlab.com/assessment/displayslide/63/writing-first-shell-script>. Reading the website, I learnt that the nano command had to be used to write inside of a shell and exit the shell with the key combination Ctrl+X and save the text. So firstly, I created a shell script using the touch command, then I used nano command to enter into the shell and wrote the two commands which were supposed to be written and then used the bash command and got the flag.
+I had to research on how to write inside of a shell as nothing was working and I couldn’t solve the question. The source which I referred is  <https://cloudxlab.com/assessment/displayslide/63/writing-first-shell-script>. Reading the website, I learnt that the nano command had to be used to write inside of a shell and exit the shell with the key combination Ctrl+X and save the text. So firstly, I created a shell script using the touch command, then I used nano command to enter into the shell and wrote the two commands which were supposed to be written and then used the bash command and got the flag.
 
 _hacker@chaining-your-first-shell-script:~$ bash_
 
