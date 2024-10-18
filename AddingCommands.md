@@ -4,14 +4,14 @@
 
 I passed /bin/cat /flag to the shell script named win and set PATH variable using export command. I also learnt the absolute path of the cat command.
 
-    _hacker@path-adding-commands:~$ nano win_
+    hacker@path-adding-commands:~$ nano win
 
-    _hacker@path-adding-commands:~$ chmod +x /home/hacker/win_
+    hacker@path-adding-commands:~$ chmod +x /home/hacker/win
 
-    _hacker@path-adding-commands:~$ export PATH=/home/hacker:$PATH_
+    hacker@path-adding-commands:~$ export PATH=/home/hacker:$PATH
 
-    _hacker@path-adding-commands:~$ /challenge/run_
+    hacker@path-adding-commands:~$ /challenge/run
 
-    _Invoking 'win'...._
+    Invoking 'win'....
 
-    _pwn.college{oTTwViDVNRimelhE8hJN7EeqXNv.dZzNyUDL1cTN0czW}_
+    pwn.college{oTTwViDVNRimelhE8hJN7EeqXNv.dZzNyUDL1cTN0czW}
