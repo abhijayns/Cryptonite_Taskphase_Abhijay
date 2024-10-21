@@ -16,7 +16,12 @@ I learnt to read a file with cat and its absolute path /flag
     hacker@commands-catting-absolute-paths:~/Desktop$ cd /
     hacker@commands-catting-absolute-paths:/$ cat /flag
 
+## More catting practice
 
+Retrieved the flag by absolute path without changing directory
+
+    hacker@commands-more-catting-practice:~/Desktop$ cat /lib/bash/flag
+    
 ## Grepping for a needle in a haystack
 
 Searched the flag in a file using grep command
