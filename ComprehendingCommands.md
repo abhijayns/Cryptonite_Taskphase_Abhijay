@@ -1,4 +1,4 @@
-#**Comprehending Commands**
+# Comprehending Commands
 
 ## Cat command
 
