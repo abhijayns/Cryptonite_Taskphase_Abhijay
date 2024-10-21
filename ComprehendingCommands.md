@@ -1,6 +1,6 @@
 #**Comprehending Commands**
 
-##**Cat command**
+## Cat command
 
 I learnt to use _cat_ command to concatenate  
 
