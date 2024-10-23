@@ -1,1 +1,0 @@
-/challenge/pwn; /challenge/college
